@@ -1,0 +1,26 @@
+.home-page {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0;
+
+    .home-page__form {
+        .home-page__input-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 0.5rem;
+        }
+        .button-check {
+            background: $myOrange;
+        }
+        .error-domain {
+            color: $myRed;
+            padding-top: 1rem;
+            font-weight: 700;
+        }
+    }
+}
+

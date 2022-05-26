@@ -1,0 +1,11 @@
+.button {
+    border-radius: $l-size;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1rem 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    font-size: $m-size;
+    padding: 0.5rem $m-size;
+    margin: auto;
+}
